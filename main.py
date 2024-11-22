@@ -13,7 +13,7 @@ def select_image_file():
 
 def select_zip_file():
     zip_file = filedialog.askopenfilename(
-        title="ZIP 파일 선택",
+        title="압축 .zip 파일 선택",
         filetypes=[("*.zip")]
     )
     if zip_file:
