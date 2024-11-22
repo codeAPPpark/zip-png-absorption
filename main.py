@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox
 
 def select_image_file():
     image_file = filedialog.askopenfilename(
-        title="이미지 파일 선택",
+        title=".png .jpg .jpeg .bmp 확장자 파일찾기",
         filetypes=[("Image files", "*.png;*.jpg;*.jpeg;*.bmp")]
     )
     if image_file:
